@@ -1,0 +1,106 @@
+/* Header Section */
+header{
+	width: 100%;
+	height: 80px;
+	background-color: #ffffff;
+	position: fixed;
+	top: 0;
+	z-index: 2;
+}
+.navBar {
+	display: flex;
+	width: 1170px;
+	margin: 25px auto;
+	justify-content: space-between;
+	align-items: center;
+}
+.navUl {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.navLi {
+	margin-right: 49px;
+	font-family: 'Raleway-SemiBold', sans-serif;
+	font-size: 15.7px;
+	text-align: center;
+	line-height: 37px;
+	color: #303134;
+}
+/*end od Header Section */
+.firstSectionDiv {
+	margin: 80px 0px;
+	background-image: url('../images/cover.png');
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 650px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.firstSectionP-1 {
+	font-family: 'Raleway-SemiBold', sans-serif;
+	font-size: 78.7px;
+	text-align: left;
+	line-height: 53px;
+	color: #ffffff;
+	margin-bottom: 36px;
+}
+.firstSectionP-2 {
+	font-family: 'Releway-SemiBold', sans-serif;
+	font-size: 18px;
+	text-align: center;
+	line-height: 37px;
+	color: #ffffff;
+}
+/* Section #2 */
+.secondSectionDiv {
+	width: 1170px;
+	margin: auto;
+	display: flex;
+}
+.leftArticleDiv {
+	width: 240px;
+	margin-right: 59px;
+}
+.leftArticleH3 {
+	font-family: 'Releway-SemiBold', sans-serif;
+	font-size: 16px;
+	text-align: left;
+	line-height: 37px;
+	color: #8d8d8d;
+}
+.leftArticleH2 {
+	font-family: 'Releway-SemiBold', sans-serif;
+	font-size: 26px;
+	text-align: left;
+	color: #1a1a1b;
+	margin-bottom: 40px;
+}
+.articleTextStyle {
+	font-family: 'Releway-SemoBold', sans-serif;
+	font-size: 16px;
+	text-align: left;
+	line-height: 22px;
+	color: #8d8d8d;
+}
+.ArticleFlexContainer {
+	width: 870px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.divStyle {
+	width: 269px;
+	height: 330px;
+	/*background-color: #cccccc;*/
+	margin-bottom: 10px;
+}
+.articleH3Style {
+	font-family: 'Releway-SemiBold', sans-serif;
+	font-size: 18px;
+	text-align: left;
+	color: #1a1a1b;
+	margin-top: 22px;
+	margin-bottom: 9px;
+}
